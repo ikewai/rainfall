@@ -177,5 +177,3 @@
     ├── madis
     ├── nws_rr5
     └── scan
-
-178 directories
