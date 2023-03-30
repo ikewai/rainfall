@@ -191,5 +191,3 @@ if(file.exists(gap_log_month_filename)){
 
 print("gap fill PAU!")
 #code end
-
-    
