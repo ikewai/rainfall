@@ -1,4 +1,3 @@
-
 #date defining function
 dataDateMkr <- function(dateVar=NA){
   #try get date from source if exist 
