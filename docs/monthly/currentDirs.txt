@@ -150,6 +150,8 @@
 /home/hawaii_climate_products_container/preliminary/rainfall/data_outputs/tables/rf_station_tracking/count
 /home/hawaii_climate_products_container/preliminary/rainfall/code
 /home/hawaii_climate_products_container/preliminary/rainfall/code/monthly
+/home/hawaii_climate_products_container/preliminary/rainfall/code/monthly/rcode
+/home/hawaii_climate_products_container/preliminary/rainfall/code/monthly/bash
 /home/hawaii_climate_products_container/preliminary/rainfall/code/daily
 /home/hawaii_climate_products_container/preliminary/rainfall/code/daily/rcode
 /home/hawaii_climate_products_container/preliminary/rainfall/code/daily/bash
