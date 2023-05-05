@@ -155,6 +155,7 @@
 /home/hawaii_climate_products_container/preliminary/rainfall/code/daily
 /home/hawaii_climate_products_container/preliminary/rainfall/code/daily/rcode
 /home/hawaii_climate_products_container/preliminary/rainfall/code/daily/bash
+/home/hawaii_climate_products_container/preliminary/rainfall/code/source
 /home/hawaii_climate_products_container/preliminary/rainfall/dependencies
 /home/hawaii_climate_products_container/preliminary/rainfall/dependencies/monthly
 /home/hawaii_climate_products_container/preliminary/rainfall/dependencies/monthly/masks
