@@ -4,9 +4,13 @@
 TZ=Pacific/Honolulu 
 
 #define filedate year_month of yesterday
-fileDate=$(date --date="1 day ago" +"%Y_%m") 
-fileYear=$(date --date="1 day ago" +"%Y") 
-
+if [ $AGGREGATION_DATE]; then
+    fileDate=$AGGREGATION_DATE
+    fileYear=$(echo $AGGREGATION_DATE | cut -c1-4)
+else
+    fileDate=$(date --date="1 day ago" +"%Y_%m") 
+    fileYear=$(date --date="1 day ago" +"%Y") 
+fi
 #define master dir
 pathMaster=$'preliminary/rainfall/' 
 
