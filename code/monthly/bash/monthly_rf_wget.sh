@@ -5,8 +5,8 @@ TZ=Pacific/Honolulu
 
 #define filedate year_month of yesterday
 if [ $AGGREGATION_DATE ]; then
-    fileDate=$AGGREGATION_DATE
-    fileYear=$(echo $AGGREGATION_DATE | cut -c1-4)
+    fileDate=$(date --date=$AGGREGATION_DATE +"%Y_%m")
+    fileYear=$(date --date=$AGGREGATION_DATE +"%Y")
 else
     fileDate=$(date --date="1 day ago" +"%Y_%m") 
     fileYear=$(date --date="1 day ago" +"%Y") 
