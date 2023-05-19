@@ -4,7 +4,7 @@
 TZ=Pacific/Honolulu 
 
 #define filedate year_month of yesterday
-if [ $AGGREGATION_DATE]; then
+if [ $AGGREGATION_DATE ]; then
     fileDate=$AGGREGATION_DATE
     fileYear=$(echo $AGGREGATION_DATE | cut -c1-4)
 else
