@@ -11,6 +11,10 @@ else
     fileDate=$(date --date="1 day ago" +"%Y_%m") 
     fileYear=$(date --date="1 day ago" +"%Y") 
 fi
+
+echo "fileDate is $fileDate"
+echo "fileYear is $fileYear"
+
 #define master dir
 pathMaster=$'preliminary/rainfall/' 
 
@@ -25,6 +29,8 @@ month_count_rf=$pathMaster'data_outputs/tables/rf_station_tracking/count/monthly
 cd /home/hawaii_climate_products_container
 
 #wget files and put in proper dir locations
+echo "Getting data from $urlMaster$month_daily_rf"
+echo "Getting count from $urlMaster$month_count_rf"
 wget $urlMaster$month_daily_rf -O './'$month_daily_rf || rm $month_daily_rf
 wget $urlMaster$month_count_rf -O './'$month_count_rf || rm $month_count_rf
 
