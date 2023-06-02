@@ -22,7 +22,7 @@ pathMaster=$'preliminary/rainfall/'
 urlMaster=$'https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/workflow_data/'
 
 #define files
-year_monthly_rf=$pathMaster'data_outputs/tables/station_data/monthly/partial_filled/statewide/Statewide_Partial_Filled_Daily_RF_mm_'$fileYear'.csv'
+year_monthly_rf=$pathMaster'data_outputs/tables/station_data/monthly/partial_filled/statewide/Statewide_Partial_Filled_Monthly_RF_mm_'$fileYear'.csv'
 month_daily_rf=$pathMaster'data_outputs/tables/station_data/daily/partial_filled/statewide/Statewide_Partial_Filled_Daily_RF_mm_'$fileDate'.csv'
 month_count_rf=$pathMaster'data_outputs/tables/rf_station_tracking/count/monthly/'$fileYear'_count_log_monthly_rf.csv'
 
