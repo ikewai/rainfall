@@ -33,7 +33,7 @@ cd /home/hawaii_climate_products_container
 echo "Getting monthly data of this year from $urlMaster$year_monthly_rf"
 echo "Getting daily data of this month from $urlMaster$month_daily_rf"
 echo "Getting count from $urlMaster$month_count_rf"
-wget $urlMaster$year_monthly_rf -O './'#year_monthly_rf || rm $year_monthly_rf
+wget $urlMaster$year_monthly_rf -O './'$year_monthly_rf || rm $year_monthly_rf
 wget $urlMaster$month_daily_rf -O './'$month_daily_rf || rm $month_daily_rf
 wget $urlMaster$month_count_rf -O './'$month_count_rf || rm $month_count_rf
 
