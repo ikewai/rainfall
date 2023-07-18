@@ -16,4 +16,4 @@ jobs:
       with:
         token: ${{ secrets.REPOSITORY_DISPATCH_TOKEN }}
         repository: ikewai/c14n
-        event-type: update-event
+        event-type: rainfall-update
