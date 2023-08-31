@@ -1,5 +1,5 @@
 {
-    "comment": "Partial Data - Daily",
+    "comment": "Rainfall partially-filled data aggregated to daily",
     "download_base_url": "https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP",
     "download": [
         "/production/rainfall/new/day/statewide/partial/station_data/%y/%m/rainfall_new_day_statewide_partial_station_data_%y_%m.csv"
@@ -15,16 +15,16 @@
             "data_col_start": 13,
             "id_col": 0,
             "nodata": "NA",
-            "datatype": "temperature",
+            "datatype": "rainfall",
             "period": "day",
             "start_date": "%y-%m-%d", 
             "end_date": "%y-%m-%d",
-            "fill": "raw",
+            "fill": "partial",
             "additional_properties": {
-                "aggregation": "max"
+                "aggregation": "new"
             },
             "additional_key_properties": [
-                "aggregation"
+                "production"
             ],
             "files": [
                 "/ingest/temperature_max_day_statewide_raw_station_data_%y_%m.csv"
