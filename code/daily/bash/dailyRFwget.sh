@@ -1,9 +1,3 @@
-##wget dependencies files for daily rf run
-cd /home/hawaii_climate_products_container/preliminary/rainfall/dependencies #set dir for dependencies
-wget https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/rainfall/HCDP_dependicies/daily_dependencies.tar.gz #wget daily dependencies tar gz
-tar -xf daily_dependencies.tar.gz  #extract dependencies dirs and files
-rm daily_dependencies.tar.gz #remove dependencies tar gz
-
 ##wget datastream daily rf monthly files
 wget https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/workflow_data/preliminary/rainfall/working_data/hads/$(date --date=$AGGREGATION_DATE_YESTERDAY +"%Y_%m")_hads_daily_rf.csv -P /home/hawaii_climate_products_container/preliminary/rainfall/working_data/hads/
 wget https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/workflow_data/preliminary/rainfall/working_data/madis/$(date --date=$AGGREGATION_DATE_YESTERDAY +"%Y_%m")_madis_daily_rf.csv -P /home/hawaii_climate_products_container/preliminary/rainfall/working_data/madis/
