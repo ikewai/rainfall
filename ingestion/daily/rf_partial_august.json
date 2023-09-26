@@ -21,7 +21,7 @@
             "end_date": "2023-08-31",
             "fill": "partial",
             "additional_properties": {
-                "aggregation": "new"
+                "production": "new"
             },
             "additional_key_properties": [
                 "production"

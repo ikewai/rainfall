@@ -21,7 +21,7 @@
             "end_date": "%y-%m-%d",
             "fill": "raw",
             "additional_properties": {
-                "aggregation": "new"
+                "production": "new"
             },
             "additional_key_properties": [
                 "production"
