@@ -59,7 +59,7 @@ agg_daily_wd<-paste0(mainDir,"/rainfall/working_data/hads")
 # #head(all_hads)
 
 #read HADS parsed table from ikewai data portal
-ikeUrl<-"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/workflow_data/preliminary" #url
+ikeUrl<-"https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/workflow_data/preliminary_test" #url
 hads_filename<-paste0(format((currentDate),"%Y%m%d"),"_hads_parsed.csv") #dynamic file name that includes date
 all_hads<-read.csv(paste0(ikeUrl,"/data_aqs/data_outputs/hads/parse/",hads_filename))
 #head(all_hads)
